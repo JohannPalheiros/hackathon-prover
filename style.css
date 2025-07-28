@@ -986,56 +986,6 @@ nav {
     height: 110px;
 }
 
-.additional-prizes {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    gap: 2rem;
-    max-width: 1000px;
-    margin: 4rem auto 0;
-}
-
-.special-prize {
-    background: var(--glass-bg);
-    backdrop-filter: blur(20px);
-    border: 1px solid var(--glass-border);
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    padding: 2.5rem;
-    border-radius: 20px;
-    transition: all 0.4s ease;
-}
-
-.special-prize:hover {
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
-}
-
-.prize-icon {
-    font-size: 3rem;
-    min-width: 70px;
-    animation: iconSpin 4s linear infinite;
-}
-
-@keyframes iconSpin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
-
-.special-prize h4 {
-    color: white;
-    margin-bottom: 0.5rem;
-    font-size: 1.3rem;
-    font-weight: 700;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-}
-
-.special-prize p {
-    color: rgba(255, 255, 255, 0.9);
-    line-height: 1.7;
-    font-weight: 500;
-}
-
 /* Enhanced Registration Form */
 .registration {
     background: linear-gradient(135deg, #1e40af, #3730a3);
@@ -1257,7 +1207,6 @@ footer p {
     .podium-place { width: 100%; max-width: 300px; }
     .schedule-days { grid-template-columns: 1fr; }
     .info-grid, .rules-grid { grid-template-columns: 1fr; }
-    .additional-prizes { grid-template-columns: 1fr; }
     .timeline-item { flex-direction: column; align-items: flex-start; }
     .timeline-content { margin-left: 0; margin-top: 1rem; }
     .form-container { padding: 2rem; margin: 2rem auto; }

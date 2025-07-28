@@ -15,10 +15,9 @@ Promover a colaboração entre diferentes áreas da empresa, criando soluções 
 
 ## 🏆 Premiações
 
-- **1º lugar:** R$ 1.000
-- **2º lugar:** R$ 500  
-- **3º lugar:** R$ 300
-- **Prêmios especiais:** Melhor Colaboração e Inovação
+- **1º lugar:** R$ 2.000
+- **2º lugar:** A definir 
+- **3º lugar:** A definir
 
 ## 📁 Estrutura do Projeto
 
@@ -148,4 +147,4 @@ git push origin main
 
 **Desenvolvido com ❤️ para inspirar e engajar nossa equipe! 💡**
 
-*Última atualização: Julho 2025*
+*Última atualização: Janeiro 2025*
